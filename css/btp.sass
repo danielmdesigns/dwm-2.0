@@ -1,0 +1,27 @@
+/* Sass Document */
+.back-to-top
+  line-height: 50px
+  position: fixed
+  right: 20px
+  bottom: 20px
+  width: 50px
+  height: 50px
+  cursor: pointer
+  transition: background-color .5s ease-in
+  text-align: center
+  color: $white
+  border-radius: 100%
+  background-color: $black
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2)
+@media(min-width: 27em)
+  .back-to-top
+    right: 40px
+    bottom: 40px
+	
+.back-to-top:hover
+  background-color: $black
+
+.back-to-top:active
+  transform: scale(.97)
+
+
