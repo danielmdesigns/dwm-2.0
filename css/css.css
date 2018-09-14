@@ -74,6 +74,41 @@ a.project-prev {
 a.project-next {
   float: right; }
 
+a.fa:link,
+a.fa:visited {
+  color: #999999;
+  text-decoration: none;
+  margin: 3.5rem 0.625rem 0;
+  display: inline-block;
+  transition: color 1s ease; }
+  a.fa:link:hover, a.fa:link:active, a.fa:link:focus,
+  a.fa:visited:hover,
+  a.fa:visited:active,
+  a.fa:visited:focus {
+    color: #333333; }
+
+a.fa.fa-twitter, a.fa.fa-dribbble, a.fa.fa-behance, a.fa.fa-linkedin, a.fa.fa-codepen, a.fa.fa-github {
+  font-size: 1.25rem; }
+
+a.email:link,
+a.email:visited {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(to top, transparent, transparent 0.04em, #333333 0.04em, #333333 0.085em, transparent 0.085em);
+  text-shadow: -0.1em 0 0 #fff, 0.1em 0 0 #fff;
+  display: inline-block;
+  font-size: 1.575rem;
+  color: #333333;
+  margin: 0 auto; }
+  @media all and (min-width: 28.94rem) {
+    a.email:link,
+    a.email:visited {
+      font-size: 1.875rem; } }
+  @media all and (max-width: 400px) {
+    a.email:link,
+    a.email:visited {
+      font-size: 1.25rem; } }
+
 * {
   margin: 0;
   padding: 0;
@@ -160,5 +195,9 @@ main {
   width: 100%;
   margin: 0 auto;
   max-width: 1000px; }
+
+footer {
+  margin: 2.5rem auto 0;
+  text-align: center; }
 
 /*# sourceMappingURL=css.css.map */

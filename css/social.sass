@@ -1,0 +1,36 @@
+a.fa:link,
+a.fa:visited
+	color: $grey
+	text-decoration: none
+	margin: 3.5rem 0.625rem 0
+	display: inline-block
+	transition: color 1s ease
+	&:hover, &:active, &:focus
+		color: $black
+
+a.fa.fa-twitter, a.fa.fa-dribbble, a.fa.fa-behance, a.fa.fa-linkedin, a.fa.fa-codepen, a.fa.fa-github
+	font-size: 1.25rem
+
+
+
+$underline-height: 0.045em
+$underline-offset: 0.04em
+
+@mixin underline
+	display: inline
+	text-decoration: none
+	background-image: linear-gradient(to top, transparent, transparent $underline-offset, $black $underline-offset, $black ($underline-offset + $underline-height), transparent ($underline-offset + $underline-height))
+	text-shadow: -0.1em 0 0 #fff, 0.1em 0 0 #fff
+
+//bold email link
+a.email:link,
+a.email:visited
+	@include underline
+	display: inline-block
+	font-size: 1.575rem
+	color: $black
+	margin: 0 auto
+	@media all and (min-width: 28.94rem)
+		font-size: 1.875rem
+	@media all and (max-width: 400px)
+		font-size: 1.25rem
