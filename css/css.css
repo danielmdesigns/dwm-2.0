@@ -1,63 +1,286 @@
-/*
-Error: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.
-        on line 42 of /Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass
-        from line 7 of /Users/dani1161/Desktop/dwm-2.0/css/css.sass
+/* Sass Document */
+/* Sass Document */
+/* Sass Document */
+.back-to-top {
+  line-height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 100%;
+  background-color: #333333;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1; }
 
-37:     position: relative
-38:     z-index: 1
-39:     .card-details--category,
-40:     .card--title
-41:       font-family: arimo
-42: 	  color: purple
-43:     .card-details--category
-44:         font-size: 12px
-45:         line-height: 1.5
-46:         color: $grey
-47:         margin-bottom: 8px
+@media(min-width: 27em) {
+  .back-to-top {
+    right: 40px;
+    bottom: 40px; } }
+.back-to-top:hover {
+  background-color: #333333; }
 
-Backtrace:
-/Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass:42
-/Users/dani1161/Desktop/dwm-2.0/css/css.sass:7
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:494:in `block in tabulate'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:452:in `each'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:452:in `each_with_index'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:452:in `tabulate'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:417:in `_to_tree'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:321:in `to_tree'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/bin/sass:37:in `load'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/bin/sass:37:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Inconsistent indentation: \"\t  \" was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 42 of /Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass\A         from line 7 of /Users/dani1161/Desktop/dwm-2.0/css/css.sass\A \A 37:     position: relative\A 38:     z-index: 1\A 39:     .card-details--category,\A 40:     .card--title\A 41:       font-family: arimo\A 42: 	  color: purple\A 43:     .card-details--category\A 44:         font-size: 12px\A 45:         line-height: 1.5\A 46:         color: $grey\A 47:         margin-bottom: 8px"; }
+.back-to-top:active {
+  transform: scale(0.97); }
+
+.slideLeft {
+  visibility: visible !important;
+  animation: slideLeft 1s ease-in-out;
+  -webkit-animation: slideLeft 1s ease-in-out;
+  -moz-animation: slideLeft 1s ease-in-out; }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(150%); }
+  50% {
+    transform: translateX(-8%); }
+  65% {
+    transform: translateX(4%); }
+  80% {
+    transform: translateX(-4%); }
+  95% {
+    transform: translateX(2%); }
+  100% {
+    transform: translateX(0%); } }
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(150%); }
+  50% {
+    -webkit-transform: translateX(-8%); }
+  65% {
+    -webkit-transform: translateX(4%); }
+  80% {
+    -webkit-transform: translateX(-4%); }
+  95% {
+    -webkit-transform: translateX(2%); }
+  100% {
+    -webkit-transform: translateX(0%); } }
+/* Sass Document */
+.project-nav {
+  display: block;
+  clear: both;
+  float: none;
+  padding: 1.5rem 0 50px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px; }
+
+a.project-prev {
+  float: left; }
+
+a.project-next {
+  float: right; }
+
+a.fa:link,
+a.fa:visited {
+  color: #999999;
+  text-decoration: none;
+  margin: 3.5rem 0.625rem 0;
+  display: inline-block;
+  transition: color 1s ease; }
+  a.fa:link:hover, a.fa:link:active, a.fa:link:focus,
+  a.fa:visited:hover,
+  a.fa:visited:active,
+  a.fa:visited:focus {
+    color: #333333; }
+
+a.fa.fa-twitter, a.fa.fa-dribbble, a.fa.fa-behance, a.fa.fa-linkedin, a.fa.fa-codepen, a.fa.fa-github {
+  font-size: 1.25rem; }
+
+a.email:link,
+a.email:visited {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(to top, transparent, transparent 0.04em, #333333 0.04em, #333333 0.085em, transparent 0.085em);
+  text-shadow: -0.1em 0 0 #fff, 0.1em 0 0 #fff;
+  display: inline-block;
+  font-size: 1.575rem;
+  color: #333333;
+  margin: 0 auto; }
+  @media all and (min-width: 28.94rem) {
+    a.email:link,
+    a.email:visited {
+      font-size: 1.875rem; } }
+  @media all and (max-width: 400px) {
+    a.email:link,
+    a.email:visited {
+      font-size: 1.25rem; } }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-shadow: 0 0.1875rem 1.5rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  background: #FFFFFF;
+  line-height: 1.4;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 0; }
+  .card:hover .card-media--img {
+    transition: opacity 0.3s ease;
+    opacity: 0.9; }
+  .card .card-link {
+    text-decoration: none; }
+  .card .card-media {
+    position: relative;
+    z-index: 0;
+    height: 200px; }
+  .card .card-media--img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s ease; }
+  .card .card-details {
+    padding: 1rem;
+    background: #FFFFFF;
+    position: relative;
+    z-index: 1; }
+    .card .card-details .card-details--category,
+    .card .card-details .card--title {
+      font-family: arimo; }
+    .card .card-details .card-details--category {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #999999;
+      margin-bottom: 8px;
+      text-transform: uppercase; }
+    .card .card-details .card-details--title {
+      font-size: 20px;
+      line-height: 1.5;
+      color: #333333;
+      font-weight: 700;
+      margin: 0 0 8px 0; }
+    .card .card-details .card-details--desc {
+      position: relative;
+      margin: 1rem 0 0;
+      font-family: lora, serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0 0 8px 0;
+      color: #333333; }
+    .card .card-details .card-details--link {
+      color: #333333;
+      display: block;
+      position: relative;
+      font-family: lora; }
+  @media (min-width: 640px) {
+    .card {
+      flex-direction: row;
+      max-width: 700px; }
+      .card a.card-link {
+        flex-grow: 1;
+        display: inherit; }
+      .card .card-media {
+        flex-basis: 100%;
+        height: auto; }
+      .card .card-details {
+        flex-basis: 60%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: "Lora", serif;
+  padding: 40px;
+  color: #333333; }
+
+h1, h2, h3, h4, h5, h6, figcaption {
+  font-family: "Arimo", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, article, .divider {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px; }
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 20px; }
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #999999;
+  margin-bottom: 48px; }
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 8px; }
+
+p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  line-height: 24px; }
+
+article, section, .divider {
+  margin-bottom: 48px; }
+
+a {
+  color: #333333; }
+
+.link {
+  color: #333;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px; }
+
+blockquote {
+  font-style: italic;
+  border-left: 2px solid #333333;
+  padding-left: 6px;
+  line-height: 24px;
+  margin-bottom: 48px; }
+
+.special {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px; }
+  .special .logo {
+    height: 42px;
+    margin-bottom: 48px; }
+
+.italic {
+  font-style: italic; }
+
+.divider {
+  text-align: center; }
+
+li {
+  margin-left: 18px;
+  line-height: 24px; }
+
+figure > img {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto 16px; }
+
+figcaption {
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 12px;
+  color: #999999; }
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px; }
+
+footer {
+  margin: 3.5rem auto 0;
+  text-align: center; }

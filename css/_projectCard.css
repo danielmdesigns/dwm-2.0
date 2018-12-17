@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$shadow".
-        on line 7 of /Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass
+        on line 8 of /Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass
 
-2:   transition: $args
-3: .card
-4:   display: flex
-5:   flex-direction: column
-6:   margin: 1rem auto
-7:   box-shadow: 0 0.1875rem 1.5rem $shadow
-8:   margin-bottom: 50px
-9:   background: $white
-10:   line-height: 1.4
-11:   border-radius: 5px
-12:   overflow: hidden
+3: 
+4: .card
+5:   display: flex
+6:   flex-direction: column
+7:   margin: 1rem auto
+8:   box-shadow: 0 0.1875rem 1.5rem $shadow
+9:   margin-bottom: 50px
+10:   background: $white
+11:   line-height: 1.4
+12:   border-radius: 5px
+13:   overflow: hidden
 
 Backtrace:
-/Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass:7
+/Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass:8
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$shadow\".\A         on line 7 of /Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass\A \A 2:   transition: $args\A 3: .card\A 4:   display: flex\A 5:   flex-direction: column\A 6:   margin: 1rem auto\A 7:   box-shadow: 0 0.1875rem 1.5rem $shadow\A 8:   margin-bottom: 50px\A 9:   background: $white\A 10:   line-height: 1.4\A 11:   border-radius: 5px\A 12:   overflow: hidden"; }
+  content: "Error: Undefined variable: \"$shadow\".\A         on line 8 of /Users/dani1161/Desktop/dwm-2.0/css/_projectCard.sass\A \A 3: \A 4: .card\A 5:   display: flex\A 6:   flex-direction: column\A 7:   margin: 1rem auto\A 8:   box-shadow: 0 0.1875rem 1.5rem $shadow\A 9:   margin-bottom: 50px\A 10:   background: $white\A 11:   line-height: 1.4\A 12:   border-radius: 5px\A 13:   overflow: hidden"; }
